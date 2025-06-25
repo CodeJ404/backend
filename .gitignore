@@ -1,0 +1,11 @@
+*.pyc
+*~
+/.vscode
+__pycache__
+env/
+venv/
+*.env
+*.mysql
+.DS_Store
+.idea/
+staticfiles/

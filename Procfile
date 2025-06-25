@@ -1,0 +1,1 @@
+web: gunicorn smjaya_project.wsgi

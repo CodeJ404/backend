@@ -1,0 +1,84 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-06-18T15:05:22.166Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "WEEKDAY",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-06-18T15:05:27.355Z",
+      "user": 1,
+      "content_type": 21,
+      "object_id": "1",
+      "object_repr": "alex",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-06-18T15:06:14.599Z",
+      "user": 1,
+      "content_type": 21,
+      "object_id": "1",
+      "object_repr": "alex",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-06-18T15:06:30.364Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "WEEKDAY",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4cynf6hlhleob18yeypq3kz7hucx99tp",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAo0AGX7j0DmRlAqoYmpV0Z765NutDtf-_9l4i4rTVuPS9xSuIstDj9boT8yG0H6Y7tNkue27pMJHdFHrTL65zy83K4fwcVe_3WAWBkAq-NA_SKh4wmBKsxM3ospWhHlJX1mp0HQ8YOzoDSakRKDli8P9trN54:1uRqti:vXyKDn5BPJ2DNT6666EBopYSNZxn7hh-7v-sKxDDqLE",
+      "expire_date": "2025-07-02T11:24:06.694Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$ERQmkZaeFSongdSfuyvJ7D$AmPS3GeMuro4qpb0+vwQfZW+l0phLSdZz69ug7Ksfbs=",
+      "last_login": "2025-06-18T11:24:06.657Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-06-18T11:23:16.197Z",
+      "email": "admin@email.com",
+      "role": "participant",
+      "phone_number": null,
+      "address": null,
+      "profile_picture": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
