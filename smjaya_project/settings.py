@@ -105,7 +105,7 @@ DATABASES = {
 
     #     },
     # }
-        'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'), 
+        'default': dj_database_url.config(default='mysql://root:ODlncoxLAPYMDrBaYZdbwgXCKKMOuAVl@mysql.railway.internal:3306/railway', 
         conn_max_age=600
     )
 }
